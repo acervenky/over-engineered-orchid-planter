@@ -204,18 +204,20 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 ## 💰 Bill of Materials (BOM)
 
-| # | Component | Specs | Qty | Notes |
-|---|---|---|---|---|
-| 1 | Raspberry Pi Pico W | RP2040, Wi-Fi | 1 | The sensory edge node |
-| 2 | 3D Printed Planter | 2-Tier Inner Core | 1 | Custom STL holding roots and reservoir |
-| 3 | Outer Clay Pot | Ceramic | 1 | Thermal mass and premium aesthetics |
-| 4 | 5V Submersible Pump | Mini Water Pump | 1 | Synthesizes the 15-min flood cycle |
-| 5 | 40mm PWM Fan | 5V DC micro fan | 1 | Forced-air root drying & VPD cooling |
-| 6 | Grow Light | LED High-CRI Strip| 1 | Drives photosynthesis |
-| 7 | **SHT41 Sensor** | I2C Temp & Humid | 1 | The ultra-precise lungs of the operation |
-| 8 | **Capacitive Water Level** | Non-contact | 1 | Prevents catastrophic dry-running |
-| 9 | Logic Level MOSFETs | IRLZ44N & Relays | 3 | High-current switching for pump/fan/light |
-| 10| Silicone Tubing | 6mm/8mm | 1M | Water routing from pump to top tier |
+| # | Component | Specs | Qty | Price (Est.) | Notes |
+|---|---|---|---|---|---|
+| 1 | Raspberry Pi Pico W | RP2040, Wi-Fi | 1 | **₹600** | The sensory edge node |
+| 2 | 3D Printed Planter | 2-Tier Inner Core | 1 | **~₹200** (Filament) | Custom STL holding roots and reservoir |
+| 3 | Outer Clay Pot | Ceramic | 1 | **₹500** | Thermal mass and premium aesthetics |
+| 4 | 5V Submersible Pump | Mini Water Pump | 1 | **₹100** | Synthesizes the 15-min flood cycle |
+| 5 | 40mm PWM Fan | 5V DC micro fan | 1 | **₹250** | Forced-air root drying & VPD cooling |
+| 6 | Grow Light | LED High-CRI Halo | 1 | **₹700** | Drives photosynthesis |
+| 7 | **SHT41 Sensor** | I2C Temp & Humid | 1 | **₹500** | The ultra-precise lungs of the operation |
+| 8 | **Capacitive Water Level** | Non-contact | 1 | **₹250** | Prevents catastrophic dry-running |
+| 9 | Logic Level MOSFETs | IRLZ44N & Relays | 3 | **₹50 ea** | High-current switching for pump/fan/light |
+| 10| Silicone Tubing | 6mm/8mm | 1M | **₹150** | Water routing from pump to top tier |
+
+> *Total Estimated Hardware Cost: **~₹3,400*** (Excluding server hardware, as Ollama runs on your existing PC)
 
 
 
