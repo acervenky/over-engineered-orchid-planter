@@ -1,0 +1,6 @@
+firmware/config.py
+server/botanist_history.db
+venv/
+__pycache__/
+*.pyc
+.env
